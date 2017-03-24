@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Quicksand|Rock+Salt|Leckerli+One|Baloo+Bhaina');
+
+body, html {
+    height: 100%;
+    background-color: transparent;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('../images/Cthulu_Background.png');
+    position: fixed;
+    width: 100%;
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.outerCenterContainer {
+  max-width: 75%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.35);
+  margin-bottom: 150px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.075);
+}
+
+.innerCenterContainer {
+
+  font-size:36px;
+  display: inline-block;
+}
+
+.social a i{
+
+  color: white;
+
+}
+.social {
+
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+  transition: color 0.3s ease-in-out;
+  font-size: 35px;
+}
+.social .socialContainer {
+
+  display: inline-block;
+  margin-bottom: 25px;
+
+}
+.social  a i:hover {
+    opacity:.25;
+  transition: opacity .3s ease-out;
+  -moz-transition: opacity .3s ease-out;
+  -webkit-transition: opacity .3s ease-out;
+  -o-transition: opacity .3s ease-out;
+
+}
+/*intro styles*/
+.intro {
+
+  font-size: 24px;
+  color: white;
+  font-family: 'Dosis', sans-serif;
+  max-height: 350px;
+  overflow: none;
+}
+
+.intro .introImage {
+
+
+  width: 25%;
+  min-width: 250px;
+  text-align: left;
+  -webkit-filter: drop-shadow(5px 5px 25px #222);
+  filter: drop-shadow(5px 5px 25px #222);
+}
+
+.intro .introImage img {
+
+  max-width: 50%;
+  height: auto;
+  width: auto;
+  margin-left: 25px;
+
+}
+
+.intro .introText {
+
+  text-align: left;
+
+}
+
+.intro .introText p {
+  margin-left: 25px;
+  margin-top: 25px;
+  margin-right: 25px;
+  padding-top: 25px;
+}
+/*navbar styles*/
+.navbar {
+
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.0);
+    font-size: 12px;
+    float: left;
+}
+
+.navbar li {
+    float: left;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.navbar .logo {
+  font-family: 'Rock Salt', cursive;
+  color: white;
+  font-size: 15px;
+
+}
+
+.navbar li  a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.navbar  li a:hover:not(.active) {
+    background-color: rgba(0, 0, 0, 0.25);
+    transition: background-color .3s ease-out;
+    -moz-transition: background-color .3s ease-out;
+    -webkit-transition: background-color .3s ease-out;
+    -o-transition: background-color .3s ease-out;
+
+}
+
+.navbar .logo a:hover:not(.active) {
+    background-color: rgba(0, 0, 0, 0.0)
+
+}
+
+.navbar .active {
+    background-color: #4CAF50;
+}
+
+
+
+/*Font Fun*/
+
+.headerText {
+
+font-family: 'Leckerli One', cursive;
+font-size: 85px;
+color: white;
+
+}
+
+/*Web Dump Boxes*/
+.webDumps {
+  margin-top: 15px;
+}
+.webDump1 {
+
+  width: 250px;
+  height: 250px;
+  max-width: 250px;
+  max-height: 250px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+}
+
+.faceText1 {
+
+font-family: 'Baloo Bhaina', cursive;
+font-size: 75px;
+color: white;
+width: 250px;
+min-width: 250px;
+min-height: 250px;
+float: left;
+
+text-align: center;
+vertical-align: middle;
+line-height: 250px;
+}
+
+.descriptorText1 {
+
+  font-family: 'Dosis', sans-serif;
+  color: white;
+  width: 250px;
+  min-width: 250px;
+  min-height: 250px;
+
+  text-align: center;
+  vertical-align: middle;
+  line-height: 250px;
+}
+
+.webDump2 {
+
+  width: 250px;
+  height: 250px;
+  max-width: 250px;
+  max-height: 250px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+}
+
+.faceText2 {
+
+font-family: 'Baloo Bhaina', cursive;
+font-size: 75px;
+color: white;
+width: 250px;
+min-width: 250px;
+min-height: 250px;
+float: left;
+
+text-align: center;
+vertical-align: middle;
+line-height: 250px;
+}
+
+.descriptorText2 {
+
+  font-family: 'Dosis', sans-serif;
+  color: white;
+  width: 250px;
+  min-width: 250px;
+  min-height: 250px;
+
+  text-align: center;
+  vertical-align: middle;
+  line-height: 250px;
+}
+
+.webDump3 {
+
+  width: 250px;
+  height: 250px;
+  max-width: 250px;
+  max-height: 250px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+}
+
+.faceText3 {
+
+font-family: 'Baloo Bhaina', cursive;
+font-size: 75px;
+color: white;
+width: 250px;
+min-width: 250px;
+min-height: 250px;
+float: left;
+
+text-align: center;
+vertical-align: middle;
+line-height: 250px;
+}
+
+.descriptorText3 {
+
+  font-family: 'Dosis', sans-serif;
+  color: white;
+  width: 250px;
+  min-width: 250px;
+  min-height: 250px;
+
+  text-align: center;
+  vertical-align: middle;
+  line-height: 250px;
+}
+
+.webDump4 {
+
+  width: 250px;
+  height: 250px;
+  max-width: 250px;
+  max-height: 250px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+}
+
+.faceText4 {
+
+font-family: 'Baloo Bhaina', cursive;
+font-size: 75px;
+color: white;
+width: 250px;
+min-width: 250px;
+min-height: 250px;
+float: left;
+
+text-align: center;
+vertical-align: middle;
+line-height: 250px;
+}
+
+.descriptorText4 {
+
+  font-family: 'Dosis', sans-serif;
+  color: white;
+  width: 250px;
+  min-width: 250px;
+  min-height: 250px;
+
+  text-align: center;
+  vertical-align: middle;
+  line-height: 250px;
+}
+
+.webDump5 {
+
+  width: 250px;
+  height: 250px;
+  max-width: 250px;
+  max-height: 250px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+}
+
+.faceText5 {
+
+font-family: 'Baloo Bhaina', cursive;
+font-size: 75px;
+color: white;
+width: 250px;
+min-width: 250px;
+min-height: 250px;
+float: left;
+
+text-align: center;
+vertical-align: middle;
+line-height: 250px;
+}
+
+.descriptorText5 {
+
+  font-family: 'Dosis', sans-serif;
+  color: white;
+  width: 250px;
+  min-width: 250px;
+  min-height: 250px;
+
+  text-align: center;
+  vertical-align: middle;
+  line-height: 250px;
+}
+
+.webDump6 {
+
+  width: 250px;
+  height: 250px;
+  max-width: 250px;
+  max-height: 250px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+}
+
+.faceText6 {
+
+font-family: 'Baloo Bhaina', cursive;
+font-size: 75px;
+color: white;
+width: 250px;
+min-width: 250px;
+min-height: 250px;
+float: left;
+
+text-align: center;
+vertical-align: middle;
+line-height: 250px;
+}
+
+.descriptorText6 {
+
+  font-family: 'Dosis', sans-serif;
+  color: white;
+  width: 250px;
+  min-width: 250px;
+  min-height: 250px;
+
+  text-align: center;
+  vertical-align: middle;
+  line-height: 250px;
+}
