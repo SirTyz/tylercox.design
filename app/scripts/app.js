@@ -29,6 +29,21 @@ angular
         controller: 'DumpsCtrl',
         controllerAs: 'about'
       })
+      .when('/about', {
+        templateUrl: 'views/about.html',
+        controller: 'DumpsCtrl',
+        controllerAs: 'about'
+      })
+      .when('/skills', {
+        templateUrl: 'views/skills.html',
+        controller: 'DumpsCtrl',
+        controllerAs: 'skills'
+      })
+      .when('/work', {
+        templateUrl: 'views/work.html',
+        controller: 'DumpsCtrl',
+        controllerAs: 'work'
+      })
       .otherwise({
         redirectTo: '/'
       });

@@ -49,6 +49,7 @@ body, html {
   width: 100%;
   text-align: center;
   margin-bottom: 20px;
+  margin-top: 25px;
   transition: color 0.3s ease-in-out;
   font-size: 35px;
 }
@@ -107,6 +108,36 @@ body, html {
   margin-right: 25px;
   padding-top: 25px;
 }
+
+.skillsText {
+
+  font-size: 24px;
+  color: white;
+  font-family: 'Dosis', sans-serif;
+  max-height: 350px;
+  overflow: none;
+  list-style: none;
+  text-align: left;
+
+}
+
+.skillsTitle {
+
+  font-size: 34px;
+  color: white;
+  font-family: 'Dosis', sans-serif;
+  max-height: 350px;
+  overflow: none;
+  list-style: none;
+
+}
+
+.fa-circle {
+
+  float: right;
+
+}
+
 /*navbar styles*/
 .navbar {
 
@@ -128,11 +159,19 @@ body, html {
 
 }
 
-.navbar .logo {
+.logo {
   font-family: 'Rock Salt', cursive;
   color: white;
   font-size: 15px;
+  float: left;
+  padding-top: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
 
+}
+
+.logo a {
+  color: white;
 }
 
 .navbar li  a {
@@ -419,4 +458,30 @@ line-height: 250px;
   text-align: center;
   vertical-align: middle;
   line-height: 250px;
+}
+
+
+.container {
+    width:75%;
+    margin:0 auto;
+    margin-top: 20px;
+
+}
+.bar-unfill {
+    height:15px;
+    display:block;
+    background:#fff;
+    width:100%;
+    border-radius:8px
+
+}
+.bar-fill {
+    height:15px;
+    display:block;
+    border-radius:8px;
+    -webkit-transition:width .8s ease;
+    -moz-transition:width .8s ease;
+    transition:width .8s ease;
+    -webkit-animation:progressbar 7s infinite;
+    animation:progressbar 7s infinite
 }
