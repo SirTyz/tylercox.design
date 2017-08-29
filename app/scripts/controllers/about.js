@@ -116,4 +116,8 @@ angular.module('nodeAppApp')
       slideIn.applyTo($(".outerCenterContainer"));
       slideIn.applyTo($(".innerCenterContainer"));
 
+      //About Button
+      $(".aboutButton").mouseenter(function(){
+        bumpUp.applyTo($(this));
+      });
   });
