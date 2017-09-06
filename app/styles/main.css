@@ -281,6 +281,9 @@ color: white;
 /*Web Dump Boxes*/
 .webDumps {
   margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 .webDump1 {
 
@@ -333,6 +336,8 @@ line-height: 250px;
   margin-right: auto;
   float: left;
 }
+
+
 
 .faceText2 {
 
@@ -521,7 +526,6 @@ line-height: 250px;
   vertical-align: middle;
   line-height: 250px;
 }
-
 
 .container {
     width:75%;

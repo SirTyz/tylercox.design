@@ -45,7 +45,6 @@ angular.module('nodeAppApp')
         to: { x: 0, y: 0}
       });
 
-
       //Animation binding with elements
 
       //Navbar
